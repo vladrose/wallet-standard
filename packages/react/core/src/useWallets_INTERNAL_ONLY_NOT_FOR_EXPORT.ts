@@ -65,7 +65,7 @@ export function useWallets_INTERNAL_ONLY_NOT_FOR_EXPORT(): readonly Wallet[] {
             return () => {
                 disposeRegisterListener();
                 disposeUnregisterListener();
-                walletsToChangeListenerDisposeFn.forEach((d) => d());
+                walletsToChangeListenerDisposeFn.forEach((d) => typeof d === 'function' && d());
                 walletsToChangeListenerDisposeFn.clear();
             };
         },
