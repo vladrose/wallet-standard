@@ -1,4 +1,4 @@
-import { getWallets, registerWallet } from '@wallet-standard/core';
+import { getWallets, registerWallet } from '@tuna-wallet-standard/core';
 import { EthereumWallet } from './ethereumWallet.js';
 import { SolanaWallet } from './solanaWallet.js';
 

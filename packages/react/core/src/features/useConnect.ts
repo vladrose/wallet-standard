@@ -1,7 +1,7 @@
-import type { StandardConnectFeature, StandardConnectInput, StandardConnectMethod } from '@wallet-standard/features';
-import { StandardConnect } from '@wallet-standard/features';
-import type { UiWallet, UiWalletAccount } from '@wallet-standard/ui';
-import { getWalletFeature } from '@wallet-standard/ui';
+import type { StandardConnectFeature, StandardConnectInput, StandardConnectMethod } from '@tuna-wallet-standard/features';
+import { StandardConnect } from '@tuna-wallet-standard/features';
+import type { UiWallet, UiWalletAccount } from '@tuna-wallet-standard/ui';
+import { getWalletFeature } from '@tuna-wallet-standard/ui';
 import {
     getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
     getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,

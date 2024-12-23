@@ -1,4 +1,4 @@
-import type { Wallet } from '@wallet-standard/base';
+import type { Wallet } from '@tuna-wallet-standard/base';
 
 import type { UiWalletAccount } from './UiWalletAccount.js';
 import type { UiWalletHandle } from './UiWalletHandle.js';

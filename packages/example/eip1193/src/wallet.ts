@@ -1,4 +1,4 @@
-import type { Wallet } from '@wallet-standard/base';
+import type { Wallet } from '@tuna-wallet-standard/base';
 import type { EIP1193Provider } from 'eip1193-provider';
 import { icon } from './icon.js';
 

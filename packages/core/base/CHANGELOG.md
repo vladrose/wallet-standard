@@ -1,4 +1,4 @@
-# @wallet-standard/base
+# @tuna-wallet-standard/base
 
 ## 1.1.0
 
@@ -26,7 +26,7 @@
 
     ### Non-breaking Changes
 
-    -   `@wallet-standard/app`
+    -   `@tuna-wallet-standard/app`
         -   Renamed `WalletsEvents` to `WalletsEventsListeners`
         -   Aliased `WalletsEvents` to `WalletsEventsListeners`
         -   Deprecated `WalletsEvents`

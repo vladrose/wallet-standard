@@ -1,4 +1,4 @@
-export * from '@wallet-standard/ui';
+export * from '@tuna-wallet-standard/ui';
 
 export * from './features/index.js';
 

@@ -1,4 +1,4 @@
-import type { UiWallet, UiWalletAccount } from '@wallet-standard/ui-core';
+import type { UiWallet, UiWalletAccount } from '@tuna-wallet-standard/ui-core';
 import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@tuna-wallet-standard/ui-registry';
 
 /**

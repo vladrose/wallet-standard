@@ -8,8 +8,8 @@ export const StandardDisconnect = 'standard:disconnect';
 export const Disconnect = StandardDisconnect;
 
 /**
- * `standard:disconnect` is a {@link "@wallet-standard/base".Wallet.features | feature} that may be implemented by a
- * {@link "@wallet-standard/base".Wallet} to allow the app to perform any cleanup work.
+ * `standard:disconnect` is a {@link "@tuna-wallet-standard/base".Wallet.features | feature} that may be implemented by a
+ * {@link "@tuna-wallet-standard/base".Wallet} to allow the app to perform any cleanup work.
  *
  * This feature may or may not be used by the app and the Wallet should not depend on it being used.
  * If this feature is used by the app, the Wallet should perform any cleanup work, but should not revoke authorization

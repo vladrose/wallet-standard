@@ -1,4 +1,4 @@
-import type { Wallet, WalletAccount, WalletEventsWindow } from '@wallet-standard/base';
+import type { Wallet, WalletAccount, WalletEventsWindow } from '@tuna-wallet-standard/base';
 
 import { getWallets } from '../src/index';
 

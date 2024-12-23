@@ -1,5 +1,5 @@
 {
-    "name": "@wallet-standard/test-config",
+    "name": "@tuna-wallet-standard/test-config",
     "version": "0.0.0",
     "private": true,
     "peerDependencies": {

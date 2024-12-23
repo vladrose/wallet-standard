@@ -1,5 +1,5 @@
 {
-    "name": "@wallet-standard/ui",
+    "name": "@tuna-wallet-standard/ui",
     "version": "1.0.0",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/wallet-standard/wallet-standard",
@@ -30,9 +30,9 @@
         "package": "shx mkdir -p lib/cjs && shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
     },
     "dependencies": {
-        "@wallet-standard/ui-compare": "workspace:^",
-        "@wallet-standard/ui-core": "workspace:^",
-        "@wallet-standard/ui-features": "workspace:^"
+        "@tuna-wallet-standard/ui-compare": "workspace:^",
+        "@tuna-wallet-standard/ui-core": "workspace:^",
+        "@tuna-wallet-standard/ui-features": "workspace:^"
     },
     "devDependencies": {
         "shx": "^0.3.4"

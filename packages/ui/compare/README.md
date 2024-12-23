@@ -1,4 +1,4 @@
-# `@wallet-standard/ui-compare`
+# `@tuna-wallet-standard/ui-compare`
 
 This package includes types and functions useful for comparing wallet accounts to determine if they represent the same account in the same wallet.
 

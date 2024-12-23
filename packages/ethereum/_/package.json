@@ -1,5 +1,5 @@
 {
-    "name": "@wallet-standard/ethereum",
+    "name": "@tuna-wallet-standard/ethereum",
     "version": "0.2.0",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/wallet-standard/wallet-standard",
@@ -30,7 +30,7 @@
         "package": "shx mkdir -p lib/cjs && shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
     },
     "dependencies": {
-        "@wallet-standard/ethereum-chains": "workspace:^"
+        "@tuna-wallet-standard/ethereum-chains": "workspace:^"
     },
     "devDependencies": {
         "shx": "^0.3.4"

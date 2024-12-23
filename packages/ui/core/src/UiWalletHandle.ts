@@ -1,4 +1,4 @@
-import type { IdentifierArray } from '@wallet-standard/base';
+import type { IdentifierArray } from '@tuna-wallet-standard/base';
 
 export type UiWalletHandle = {
     readonly '~uiWalletHandle': unique symbol;

@@ -1,5 +1,5 @@
 {
-    "name": "@wallet-standard/errors",
+    "name": "@tuna-wallet-standard/errors",
     "version": "0.1.0",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/wallet-standard/wallet-standard",
@@ -40,7 +40,7 @@
         "clean": "shx mkdir -p lib && shx rm -rf lib",
         "build": "parcel build --target bin src/cli.ts",
         "package": "shx mkdir -p lib/cjs && shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json",
-        "test": "jest -c ../../../node_modules/@wallet-standard/test-config/jest.config.ts --rootDir ."
+        "test": "jest -c ../../../node_modules/@tuna-wallet-standard/test-config/jest.config.ts --rootDir ."
     },
     "dependencies": {
         "commander": "^12.1.0",

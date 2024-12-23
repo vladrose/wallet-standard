@@ -4,15 +4,15 @@ import type {
     WalletEventsWindow,
     WindowRegisterWalletEvent,
     WindowRegisterWalletEventCallback,
-} from '@wallet-standard/base';
+} from '@tuna-wallet-standard/base';
 
 /**
- * Register a {@link "@wallet-standard/base".Wallet} as a Standard Wallet with the app.
+ * Register a {@link "@tuna-wallet-standard/base".Wallet} as a Standard Wallet with the app.
  *
- * This dispatches a {@link "@wallet-standard/base".WindowRegisterWalletEvent} to notify the app that the Wallet is
+ * This dispatches a {@link "@tuna-wallet-standard/base".WindowRegisterWalletEvent} to notify the app that the Wallet is
  * ready to be registered.
  *
- * This also adds a listener for {@link "@wallet-standard/base".WindowAppReadyEvent} to listen for a notification from
+ * This also adds a listener for {@link "@tuna-wallet-standard/base".WindowAppReadyEvent} to listen for a notification from
  * the app that the app is ready to register the Wallet.
  *
  * This combination of event dispatch and listener guarantees that the Wallet will be registered synchronously as soon

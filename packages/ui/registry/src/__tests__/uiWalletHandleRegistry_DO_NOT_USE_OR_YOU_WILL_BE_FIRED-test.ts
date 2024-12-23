@@ -1,5 +1,5 @@
-import type { Wallet } from '@wallet-standard/base';
-import type { UiWalletHandle } from '@wallet-standard/ui-core';
+import type { Wallet } from '@tuna-wallet-standard/base';
+import type { UiWalletHandle } from '@tuna-wallet-standard/ui-core';
 
 import {
     getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,

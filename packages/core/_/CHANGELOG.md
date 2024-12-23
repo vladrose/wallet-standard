@@ -1,4 +1,4 @@
-# @wallet-standard/core
+# @tuna-wallet-standard/core
 
 ## 1.1.0
 
@@ -6,7 +6,7 @@
 
 -   96e237c: Minor version bump to previously released packages
 -   96e237c: Introduced the `UiWallet` and `UiWalletAccount` data structures. These act both as descriptions of Wallet Standard wallets and accounts, as well as ‘handles’ to the underlying `Wallet` and `WalletAccount` objects in the registry.
--   96e237c: Created `@wallet-standard/errors`; a coded exception class that strips error messages out in production for smaller bundles, while still providing tooling to decode minified production errors
+-   96e237c: Created `@tuna-wallet-standard/errors`; a coded exception class that strips error messages out in production for smaller bundles, while still providing tooling to decode minified production errors
 
 ### Patch Changes
 
@@ -18,35 +18,35 @@
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
-    -   @wallet-standard/app@1.1.0
-    -   @wallet-standard/errors@0.1.0
-    -   @wallet-standard/wallet@1.1.0
-    -   @wallet-standard/base@1.1.0
-    -   @wallet-standard/features@1.1.0
+    -   @tuna-wallet-standard/app@1.1.0
+    -   @tuna-wallet-standard/errors@0.1.0
+    -   @tuna-wallet-standard/wallet@1.1.0
+    -   @tuna-wallet-standard/base@1.1.0
+    -   @tuna-wallet-standard/features@1.1.0
 
 ## 1.0.3
 
 ### Patch Changes
 
 -   Updated dependencies [6cac3ca]
-    -   @wallet-standard/features@1.0.3
+    -   @tuna-wallet-standard/features@1.0.3
 
 ## 1.0.2
 
 ### Patch Changes
 
 -   Updated dependencies [41add01]
-    -   @wallet-standard/features@1.0.2
+    -   @tuna-wallet-standard/features@1.0.2
 
 ## 1.0.1
 
 ### Patch Changes
 
 -   Updated dependencies [1eefb9f]
-    -   @wallet-standard/app@1.0.1
-    -   @wallet-standard/base@1.0.1
-    -   @wallet-standard/features@1.0.1
-    -   @wallet-standard/wallet@1.0.1
+    -   @tuna-wallet-standard/app@1.0.1
+    -   @tuna-wallet-standard/base@1.0.1
+    -   @tuna-wallet-standard/features@1.0.1
+    -   @tuna-wallet-standard/wallet@1.0.1
 
 ## 1.0.0
 
@@ -57,7 +57,7 @@
 ### Patch Changes
 
 -   Updated dependencies [59d90b2]
-    -   @wallet-standard/app@1.0.0
-    -   @wallet-standard/base@1.0.0
-    -   @wallet-standard/features@1.0.0
-    -   @wallet-standard/wallet@1.0.0
+    -   @tuna-wallet-standard/app@1.0.0
+    -   @tuna-wallet-standard/base@1.0.0
+    -   @tuna-wallet-standard/features@1.0.0
+    -   @tuna-wallet-standard/wallet@1.0.0

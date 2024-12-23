@@ -8,9 +8,9 @@ import type {
     EventsOnMethod,
     Wallet,
     WalletAccount,
-} from '@wallet-standard/core';
-import { WALLET_STANDARD_ERROR__USER__REQUEST_REJECTED, WalletStandardError } from '@wallet-standard/errors';
-import { ETHEREUM_MAINNET_CHAIN } from '@wallet-standard/ethereum';
+} from '@tuna-wallet-standard/core';
+import { WALLET_STANDARD_ERROR__USER__REQUEST_REJECTED, WalletStandardError } from '@tuna-wallet-standard/errors';
+import { ETHEREUM_MAINNET_CHAIN } from '@tuna-wallet-standard/ethereum';
 import bs58 from 'bs58';
 import { utils as ethUtils } from 'ethers';
 import type { RPC } from '../messages/index';

@@ -10,7 +10,7 @@ import { WalletStandardErrorMessages } from './messages.js';
 const program = new Command();
 
 program
-    .name('@wallet-standard/errors')
+    .name('@tuna-wallet-standard/errors')
     .description('Decode Wallet Standard JavaScript errors thrown in production')
     .version(version);
 

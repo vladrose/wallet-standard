@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@wallet-standard/example-wallets",
+    "name": "@tuna-wallet-standard/example-wallets",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/wallet-standard/wallet-standard",
     "license": "Apache-2.0",
@@ -21,9 +21,9 @@
     "dependencies": {
         "@solana/wallet-standard": "^1.0.2",
         "@solana/web3.js": "^1.66.2",
-        "@wallet-standard/core": "workspace:^",
-        "@wallet-standard/ethereum": "workspace:^",
-        "@wallet-standard/experimental": "workspace:^",
+        "@tuna-wallet-standard/core": "workspace:^",
+        "@tuna-wallet-standard/ethereum": "workspace:^",
+        "@tuna-wallet-standard/experimental": "workspace:^",
         "bs58": "^4.0.1",
         "ethers": "^5.7.2",
         "tweetnacl": "^1.0.3"

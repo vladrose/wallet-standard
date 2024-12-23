@@ -1,4 +1,4 @@
-# `@wallet-standard/ui-core`
+# `@tuna-wallet-standard/ui-core`
 
 This package includes the type definitions of wallets and accounts in client applications.
 

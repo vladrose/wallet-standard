@@ -1,12 +1,12 @@
-import { getWallets } from '@wallet-standard/app';
-import type { Wallet, WalletVersion, WalletWithFeatures } from '@wallet-standard/base';
-import { StandardEvents, type StandardEventsFeature, type StandardEventsListeners } from '@wallet-standard/features';
+import { getWallets } from '@tuna-wallet-standard/app';
+import type { Wallet, WalletVersion, WalletWithFeatures } from '@tuna-wallet-standard/base';
+import { StandardEvents, type StandardEventsFeature, type StandardEventsListeners } from '@tuna-wallet-standard/features';
 import { act } from 'react-test-renderer';
 
 import { renderHook } from '../test-renderer.js';
 import { useWallets_INTERNAL_ONLY_NOT_FOR_EXPORT } from '../useWallets_INTERNAL_ONLY_NOT_FOR_EXPORT.js';
 
-jest.mock('@wallet-standard/app');
+jest.mock('@tuna-wallet-standard/app');
 
 describe('useWallets_INTERNAL_ONLY_NOT_FOR_EXPORT', () => {
     let mockGet: jest.MockedFn<ReturnType<typeof getWallets>['get']>;

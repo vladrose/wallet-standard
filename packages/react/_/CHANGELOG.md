@@ -1,4 +1,4 @@
-# @wallet-standard/react
+# @tuna-wallet-standard/react
 
 ## 1.0.0
 
@@ -16,32 +16,32 @@
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
-    -   @wallet-standard/react-core@1.0.0
+    -   @tuna-wallet-standard/react-core@1.0.0
 
 ## 0.1.4
 
 ### Patch Changes
 
--   @wallet-standard/react-core@0.1.4
+-   @tuna-wallet-standard/react-core@0.1.4
 
 ## 0.1.3
 
 ### Patch Changes
 
--   @wallet-standard/react-core@0.1.3
+-   @tuna-wallet-standard/react-core@0.1.3
 
 ## 0.1.2
 
 ### Patch Changes
 
 -   Updated dependencies [6e11316]
-    -   @wallet-standard/react-core@0.1.2
+    -   @tuna-wallet-standard/react-core@0.1.2
 
 ## 0.1.1
 
 ### Patch Changes
 
--   @wallet-standard/react-core@0.1.1
+-   @tuna-wallet-standard/react-core@0.1.1
 
 ## 0.1.0
 
@@ -52,4 +52,4 @@
 ### Patch Changes
 
 -   Updated dependencies [59d90b2]
-    -   @wallet-standard/react-core@0.1.0
+    -   @tuna-wallet-standard/react-core@0.1.0

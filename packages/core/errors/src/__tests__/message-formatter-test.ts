@@ -27,7 +27,7 @@ describe('getErrorMessage', () => {
                 123
             );
             expect(message).toBe(
-                'Wallet Standard error #123; Decode this error by running `npx @wallet-standard/errors decode -- 123`'
+                'Wallet Standard error #123; Decode this error by running `npx @tuna-wallet-standard/errors decode -- 123`'
             );
         });
         it('does not call the context encoder when the error has no context', () => {
@@ -60,7 +60,7 @@ describe('getErrorMessage', () => {
             const context = { foo: 'bar' };
             const message = getErrorMessage(123 as WalletStandardErrorCode, context);
             expect(message).toBe(
-                "Wallet Standard error #123; Decode this error by running `npx @wallet-standard/errors decode -- 123 'ENCODED_CONTEXT'`"
+                "Wallet Standard error #123; Decode this error by running `npx @tuna-wallet-standard/errors decode -- 123 'ENCODED_CONTEXT'`"
             );
         });
         it('renders no encoded context in the decoding advice when the context has no keys', () => {
@@ -68,7 +68,7 @@ describe('getErrorMessage', () => {
             const context = {};
             const message = getErrorMessage(123 as WalletStandardErrorCode, context);
             expect(message).toBe(
-                'Wallet Standard error #123; Decode this error by running `npx @wallet-standard/errors decode -- 123`'
+                'Wallet Standard error #123; Decode this error by running `npx @tuna-wallet-standard/errors decode -- 123`'
             );
         });
     });

@@ -1,5 +1,5 @@
-import type { EventsListeners, EventsNames, EventsOnMethod, Wallet, WalletAccount } from '@wallet-standard/core';
-import { ReadonlyWalletAccount } from '@wallet-standard/core';
+import type { EventsListeners, EventsNames, EventsOnMethod, Wallet, WalletAccount } from '@tuna-wallet-standard/core';
+import { ReadonlyWalletAccount } from '@tuna-wallet-standard/core';
 
 export abstract class AbstractWallet implements Wallet {
     #listeners: { [E in EventsNames]?: EventsListeners[E][] } = {};

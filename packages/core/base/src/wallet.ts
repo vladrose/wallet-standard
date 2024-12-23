@@ -63,7 +63,7 @@ export interface Wallet {
      * Each blockchain should define its own **chains** by extension of the Wallet Standard, using its own namespace.
      * The `standard` and `experimental` namespaces are reserved by the Wallet Standard.
      *
-     * The {@link "@wallet-standard/features".EventsFeature | `standard:events` feature} should be used to notify the
+     * The {@link "@tuna-wallet-standard/features".EventsFeature | `standard:events` feature} should be used to notify the
      * app if the value changes.
      */
     readonly chains: IdentifierArray;
@@ -96,7 +96,7 @@ export interface Wallet {
      *  };
      * ```
      *
-     * The {@link "@wallet-standard/features".EventsFeature | `standard:events` feature} should be used to notify the
+     * The {@link "@tuna-wallet-standard/features".EventsFeature | `standard:events` feature} should be used to notify the
      * app if the value changes.
      */
     readonly features: IdentifierRecord<unknown>;
@@ -106,10 +106,10 @@ export interface Wallet {
      *
      * This can be set by the Wallet so the app can use authorized accounts on the initial page load.
      *
-     * The {@link "@wallet-standard/features".ConnectFeature | `standard:connect` feature} should be used to obtain
+     * The {@link "@tuna-wallet-standard/features".ConnectFeature | `standard:connect` feature} should be used to obtain
      * authorization to the accounts.
      *
-     * The {@link "@wallet-standard/features".EventsFeature | `standard:events` feature} should be used to notify the
+     * The {@link "@tuna-wallet-standard/features".EventsFeature | `standard:events` feature} should be used to notify the
      * app if the value changes.
      */
     readonly accounts: readonly WalletAccount[];
@@ -124,7 +124,7 @@ export interface Wallet {
  *
  * The app can also act using an account by passing it to {@link Wallet.features | features} of the Wallet.
  *
- * Wallets may use or extend {@link "@wallet-standard/wallet".ReadonlyWalletAccount} which implements this interface.
+ * Wallets may use or extend {@link "@tuna-wallet-standard/wallet".ReadonlyWalletAccount} which implements this interface.
  *
  * @group Wallet
  */

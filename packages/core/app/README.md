@@ -1,4 +1,4 @@
-# `@wallet-standard/app`
+# `@tuna-wallet-standard/app`
 
 This package defines functions to help apps support Wallets that implement the Wallet Standard.
 

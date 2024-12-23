@@ -1,6 +1,6 @@
-import type { ConnectFeature, ConnectMethod, EventsFeature, Wallet } from '@wallet-standard/core';
-import type { EthereumChain } from '@wallet-standard/ethereum';
-import { ETHEREUM_CHAINS } from '@wallet-standard/ethereum';
+import type { ConnectFeature, ConnectMethod, EventsFeature, Wallet } from '@tuna-wallet-standard/core';
+import type { EthereumChain } from '@tuna-wallet-standard/ethereum';
+import { ETHEREUM_CHAINS } from '@tuna-wallet-standard/ethereum';
 import type {
     SignAndSendTransactionFeature,
     SignAndSendTransactionMethod,
@@ -11,7 +11,7 @@ import type {
     SignTransactionFeature,
     SignTransactionMethod,
     SignTransactionOutput,
-} from '@wallet-standard/experimental';
+} from '@tuna-wallet-standard/experimental';
 import ethers from 'ethers';
 import { AbstractWallet, SignerWalletAccount } from './abstractWallet.js';
 

@@ -1,4 +1,4 @@
-import type { WalletAccount } from '@wallet-standard/base';
+import type { WalletAccount } from '@tuna-wallet-standard/base';
 
 /** Name of the feature. */
 export const StandardConnect = 'standard:connect';
@@ -10,9 +10,9 @@ export const StandardConnect = 'standard:connect';
 export const Connect = StandardConnect;
 
 /**
- * `standard:connect` is a {@link "@wallet-standard/base".Wallet.features | feature} that may be implemented by a
- * {@link "@wallet-standard/base".Wallet} to allow the app to obtain authorization to use
- * {@link "@wallet-standard/base".Wallet.accounts}.
+ * `standard:connect` is a {@link "@tuna-wallet-standard/base".Wallet.features | feature} that may be implemented by a
+ * {@link "@tuna-wallet-standard/base".Wallet} to allow the app to obtain authorization to use
+ * {@link "@tuna-wallet-standard/base".Wallet.accounts}.
  *
  * @group Connect
  */
@@ -33,7 +33,7 @@ export type StandardConnectFeature = {
 export type ConnectFeature = StandardConnectFeature;
 
 /**
- * Version of the {@link StandardConnectFeature} implemented by a {@link "@wallet-standard/base".Wallet}.
+ * Version of the {@link StandardConnectFeature} implemented by a {@link "@tuna-wallet-standard/base".Wallet}.
  *
  * @group Connect
  */
@@ -87,7 +87,7 @@ export type ConnectInput = StandardConnectInput;
  * @group Connect
  */
 export interface StandardConnectOutput {
-    /** List of accounts in the {@link "@wallet-standard/base".Wallet} that the app has been authorized to use. */
+    /** List of accounts in the {@link "@tuna-wallet-standard/base".Wallet} that the app has been authorized to use. */
     readonly accounts: readonly WalletAccount[];
 }
 /**

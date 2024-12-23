@@ -1,1 +1,1 @@
-export * from '@wallet-standard/experimental-features';
+export * from '@tuna-wallet-standard/experimental-features';

@@ -1,4 +1,4 @@
-# @wallet-standard/ethereum-chains
+# @tuna-wallet-standard/ethereum-chains
 
 ## 0.2.0
 

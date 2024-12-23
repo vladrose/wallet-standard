@@ -1,7 +1,7 @@
 {
     "version": null,
     "private": true,
-    "name": "@wallet-standard/example-eip1193",
+    "name": "@tuna-wallet-standard/example-eip1193",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/wallet-standard/wallet-standard",
     "license": "Apache-2.0",
@@ -23,7 +23,7 @@
         "package": "shx mkdir -p lib/cjs && shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json"
     },
     "dependencies": {
-        "@wallet-standard/base": "workspace:^",
+        "@tuna-wallet-standard/base": "workspace:^",
         "eip1193-provider": "^1.0.1"
     },
     "devDependencies": {

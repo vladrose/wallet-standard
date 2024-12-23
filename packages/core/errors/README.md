@@ -1,4 +1,4 @@
-# `@wallet-standard/errors`
+# `@tuna-wallet-standard/errors`
 
 This package brings together every error message across all Wallet Standard JavaScript modules.
 
@@ -18,7 +18,7 @@ When your bundler sets the environment variable `NODE_ENV` to anything other tha
 For instance, to recover the error text for the error with code `123`:
 
 ```shell
-npx @wallet-standard/errors decode -- 123
+npx @tuna-wallet-standard/errors decode -- 123
 ```
 
 ## Adding a new error
@@ -27,8 +27,8 @@ npx @wallet-standard/errors decode -- 123
 2. Add that new constant to the `WalletStandardErrorCode` union in `src/codes.ts`.
 3. If you would like the new error to encapsulate context about the error itself (eg. the public keys for which a transaction is missing signatures) define the shape of that context in `src/context.ts`.
 4. Add the error's message to `src/messages.ts`. Any context values that you defined above will be interpolated into the message wherever you write `$key`, where `key` is the index of a value in the context (eg. ``'Missing a signature for account `$address`'``).
-5. Publish a new version of `@wallet-standard/errors`.
-6. Bump the version of `@wallet-standard/errors` in the package from which the error is thrown.
+5. Publish a new version of `@tuna-wallet-standard/errors`.
+6. Bump the version of `@tuna-wallet-standard/errors` in the package from which the error is thrown.
 
 ## Removing an error message
 
@@ -44,7 +44,7 @@ When an older client throws an error, we want to make sure that they can always 
 When you catch a `WalletStandardError` and assert its error code using `isWalletStandardError()`, TypeScript will refine the error's context to the type associated with that error code. You can use that context to render useful error messages, or to make context-aware decisions that help your application to recover from the error.
 
 ```tsx
-import { WALLET_STANDARD_ERROR__ACCOUNT__FEATURE_NOT_SUPPORTED, isWalletStandardError } from '@wallet-standard/errors';
+import { WALLET_STANDARD_ERROR__ACCOUNT__FEATURE_NOT_SUPPORTED, isWalletStandardError } from '@tuna-wallet-standard/errors';
 
 function MyComponent(props) {
     return (

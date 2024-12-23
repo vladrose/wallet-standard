@@ -52,7 +52,7 @@ export const WALLET_STANDARD_ERROR__FEATURES__WALLET_FEATURE_UNIMPLEMENTED = 616
  *
  * Const enums appear to solve this problem by letting the compiler inline only the codes that are
  * actually used. Unfortunately exporting ambient (const) enums from a library like
- * `@wallet-standard/errors` is not safe, for a variety of reasons covered here:
+ * `@tuna-wallet-standard/errors` is not safe, for a variety of reasons covered here:
  * https://stackoverflow.com/a/28818850
  */
 export type WalletStandardErrorCode =

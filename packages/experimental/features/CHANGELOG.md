@@ -1,4 +1,4 @@
-# @wallet-standard/experimental-features
+# @tuna-wallet-standard/experimental-features
 
 ## 0.2.0
 
@@ -13,14 +13,14 @@
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
-    -   @wallet-standard/base@1.1.0
+    -   @tuna-wallet-standard/base@1.1.0
 
 ## 0.1.1
 
 ### Patch Changes
 
 -   Updated dependencies [1eefb9f]
-    -   @wallet-standard/base@1.0.1
+    -   @tuna-wallet-standard/base@1.0.1
 
 ## 0.1.0
 
@@ -31,4 +31,4 @@
 ### Patch Changes
 
 -   Updated dependencies [59d90b2]
-    -   @wallet-standard/base@1.0.0
+    -   @tuna-wallet-standard/base@1.0.0

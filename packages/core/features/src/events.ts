@@ -1,4 +1,4 @@
-import type { Wallet } from '@wallet-standard/base';
+import type { Wallet } from '@tuna-wallet-standard/base';
 
 /** Name of the feature. */
 export const StandardEvents = 'standard:events';
@@ -10,8 +10,8 @@ export const StandardEvents = 'standard:events';
 export const Events = StandardEvents;
 
 /**
- * `standard:events` is a {@link "@wallet-standard/base".Wallet.features | feature} that may be implemented by a
- * {@link "@wallet-standard/base".Wallet} to allow the app to add an event listener and subscribe to events emitted by
+ * `standard:events` is a {@link "@tuna-wallet-standard/base".Wallet.features | feature} that may be implemented by a
+ * {@link "@tuna-wallet-standard/base".Wallet} to allow the app to add an event listener and subscribe to events emitted by
  * the Wallet when properties of the Wallet {@link StandardEventsListeners.change}.
  *
  * @group Events
@@ -19,7 +19,7 @@ export const Events = StandardEvents;
 export type StandardEventsFeature = {
     /** Name of the feature. */
     readonly [StandardEvents]: {
-        /** Version of the feature implemented by the {@link "@wallet-standard/base".Wallet}. */
+        /** Version of the feature implemented by the {@link "@tuna-wallet-standard/base".Wallet}. */
         readonly version: StandardEventsVersion;
         /** Method to call to use the feature. */
         readonly on: StandardEventsOnMethod;
@@ -33,7 +33,7 @@ export type StandardEventsFeature = {
 export type EventsFeature = StandardEventsFeature;
 
 /**
- * Version of the {@link StandardEventsFeature} implemented by a {@link "@wallet-standard/base".Wallet}.
+ * Version of the {@link StandardEventsFeature} implemented by a {@link "@tuna-wallet-standard/base".Wallet}.
  *
  * @group Events
  */
@@ -77,7 +77,7 @@ export type EventsOnMethod = StandardEventsOnMethod;
 export interface StandardEventsListeners {
     /**
      * Listener that will be called when {@link StandardEventsChangeProperties | properties} of the
-     * {@link "@wallet-standard/base".Wallet} have changed.
+     * {@link "@tuna-wallet-standard/base".Wallet} have changed.
      *
      * @param properties Properties that changed with their **new** values.
      */
@@ -104,14 +104,14 @@ export type StandardEventsNames = keyof StandardEventsListeners;
 export type EventsNames = StandardEventsNames;
 
 /**
- * Properties of a {@link "@wallet-standard/base".Wallet} that {@link StandardEventsListeners.change | changed} with their
+ * Properties of a {@link "@tuna-wallet-standard/base".Wallet} that {@link StandardEventsListeners.change | changed} with their
  * **new** values.
  *
  * @group Events
  */
 export interface StandardEventsChangeProperties {
     /**
-     * {@link "@wallet-standard/base".Wallet.chains | Chains} supported by the Wallet.
+     * {@link "@tuna-wallet-standard/base".Wallet.chains | Chains} supported by the Wallet.
      *
      * The Wallet should only define this field if the value of the property has changed.
      *
@@ -119,7 +119,7 @@ export interface StandardEventsChangeProperties {
      */
     readonly chains?: Wallet['chains'];
     /**
-     * {@link "@wallet-standard/base".Wallet.features | Features} supported by the Wallet.
+     * {@link "@tuna-wallet-standard/base".Wallet.features | Features} supported by the Wallet.
      *
      * The Wallet should only define this field if the value of the property has changed.
      *
@@ -127,7 +127,7 @@ export interface StandardEventsChangeProperties {
      */
     readonly features?: Wallet['features'];
     /**
-     * {@link "@wallet-standard/base".Wallet.accounts | Accounts} that the app is authorized to use.
+     * {@link "@tuna-wallet-standard/base".Wallet.accounts | Accounts} that the app is authorized to use.
      *
      * The Wallet should only define this field if the value of the property has changed.
      *

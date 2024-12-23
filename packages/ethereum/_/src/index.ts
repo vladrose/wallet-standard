@@ -1,1 +1,1 @@
-export * from '@wallet-standard/ethereum-chains';
+export * from '@tuna-wallet-standard/ethereum-chains';

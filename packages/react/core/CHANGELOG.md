@@ -1,4 +1,4 @@
-# @wallet-standard/react-core
+# @tuna-wallet-standard/react-core
 
 ## 1.0.0
 
@@ -21,27 +21,27 @@
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
-    -   @wallet-standard/app@1.1.0
-    -   @wallet-standard/experimental-features@0.2.0
-    -   @wallet-standard/errors@0.1.0
-    -   @wallet-standard/base@1.1.0
-    -   @wallet-standard/features@1.1.0
-    -   @wallet-standard/ui@1.0.0
-    -   @wallet-standard/ui-registry@1.0.0
+    -   @tuna-wallet-standard/app@1.1.0
+    -   @tuna-wallet-standard/experimental-features@0.2.0
+    -   @tuna-wallet-standard/errors@0.1.0
+    -   @tuna-wallet-standard/base@1.1.0
+    -   @tuna-wallet-standard/features@1.1.0
+    -   @tuna-wallet-standard/ui@1.0.0
+    -   @tuna-wallet-standard/ui-registry@1.0.0
 
 ## 0.1.4
 
 ### Patch Changes
 
 -   Updated dependencies [6cac3ca]
-    -   @wallet-standard/features@1.0.3
+    -   @tuna-wallet-standard/features@1.0.3
 
 ## 0.1.3
 
 ### Patch Changes
 
 -   Updated dependencies [41add01]
-    -   @wallet-standard/features@1.0.2
+    -   @tuna-wallet-standard/features@1.0.2
 
 ## 0.1.2
 
@@ -54,10 +54,10 @@
 ### Patch Changes
 
 -   Updated dependencies [1eefb9f]
-    -   @wallet-standard/app@1.0.1
-    -   @wallet-standard/base@1.0.1
-    -   @wallet-standard/features@1.0.1
-    -   @wallet-standard/experimental-features@0.1.1
+    -   @tuna-wallet-standard/app@1.0.1
+    -   @tuna-wallet-standard/base@1.0.1
+    -   @tuna-wallet-standard/features@1.0.1
+    -   @tuna-wallet-standard/experimental-features@0.1.1
 
 ## 0.1.0
 
@@ -68,7 +68,7 @@
 ### Patch Changes
 
 -   Updated dependencies [59d90b2]
-    -   @wallet-standard/app@1.0.0
-    -   @wallet-standard/base@1.0.0
-    -   @wallet-standard/features@1.0.0
-    -   @wallet-standard/experimental-features@0.1.0
+    -   @tuna-wallet-standard/app@1.0.0
+    -   @tuna-wallet-standard/base@1.0.0
+    -   @tuna-wallet-standard/features@1.0.0
+    -   @tuna-wallet-standard/experimental-features@0.1.0

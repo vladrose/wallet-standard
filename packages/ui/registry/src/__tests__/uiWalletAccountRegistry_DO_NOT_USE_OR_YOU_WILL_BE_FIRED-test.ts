@@ -1,6 +1,6 @@
-import '@wallet-standard/test-matchers/toBeFrozenObject';
+import '@tuna-wallet-standard/test-matchers/toBeFrozenObject';
 
-import type { Wallet, WalletAccount } from '@wallet-standard/base';
+import type { Wallet, WalletAccount } from '@tuna-wallet-standard/base';
 
 import { getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '../UiWalletAccountRegistry_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.js';
 import {

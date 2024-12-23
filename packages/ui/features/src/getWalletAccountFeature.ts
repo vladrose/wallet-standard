@@ -2,8 +2,8 @@ import {
     WALLET_STANDARD_ERROR__FEATURES__WALLET_ACCOUNT_FEATURE_UNIMPLEMENTED,
     WalletStandardError,
     safeCaptureStackTrace,
-} from '@wallet-standard/errors';
-import type { UiWalletAccount } from '@wallet-standard/ui-core';
+} from '@tuna-wallet-standard/errors';
+import type { UiWalletAccount } from '@tuna-wallet-standard/ui-core';
 
 import { getWalletFeature } from './getWalletFeature.js';
 

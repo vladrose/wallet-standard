@@ -13,6 +13,6 @@
         "@parcel/runtime-webextension"
     ],
     "packagers": {
-        "manifest.json": "@wallet-standard/parcel-packager-webextension"
+        "manifest.json": "@tuna-wallet-standard/parcel-packager-webextension"
     }
 }

@@ -1,10 +1,10 @@
-import type { ReadonlyUint8Array, WalletAccount } from '@wallet-standard/base';
+import type { ReadonlyUint8Array, WalletAccount } from '@tuna-wallet-standard/base';
 
 /** TODO: docs */
 export type SignMessageFeature = {
     /** Name of the feature. */
     'experimental:signMessage': {
-        /** Version of the feature implemented by the {@link "@wallet-standard/base".Wallet}. */
+        /** Version of the feature implemented by the {@link "@tuna-wallet-standard/base".Wallet}. */
         version: SignMessageVersion;
 
         /** Sign messages (arbitrary bytes) using the account's secret key. */

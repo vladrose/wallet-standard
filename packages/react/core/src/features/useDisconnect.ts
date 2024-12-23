@@ -1,7 +1,7 @@
-import type { StandardDisconnectFeature, StandardDisconnectMethod } from '@wallet-standard/features';
-import { StandardDisconnect } from '@wallet-standard/features';
-import type { UiWallet } from '@wallet-standard/ui';
-import { getWalletFeature } from '@wallet-standard/ui';
+import type { StandardDisconnectFeature, StandardDisconnectMethod } from '@tuna-wallet-standard/features';
+import { StandardDisconnect } from '@tuna-wallet-standard/features';
+import type { UiWallet } from '@tuna-wallet-standard/ui';
+import { getWalletFeature } from '@tuna-wallet-standard/ui';
 import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@tuna-wallet-standard/ui-registry';
 import { useCallback } from 'react';
 

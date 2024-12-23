@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@wallet-standard/parcel-packager-webextension",
+    "name": "@tuna-wallet-standard/parcel-packager-webextension",
     "author": "Exodus Maintainers <maintainers@exodus.io>",
     "repository": "https://github.com/wallet-standard/wallet-standard",
     "license": "Apache-2.0",

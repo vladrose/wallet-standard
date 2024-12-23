@@ -1,4 +1,4 @@
-import type { WalletAccount, WalletWithFeatures } from '@wallet-standard/base';
+import type { WalletAccount, WalletWithFeatures } from '@tuna-wallet-standard/base';
 import { StandardConnect, StandardDisconnect, StandardEvents, type StandardFeatures } from '../src/index';
 
 type FooWalletFeature = {

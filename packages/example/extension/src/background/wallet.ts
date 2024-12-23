@@ -1,5 +1,5 @@
 import { Keypair as SolKeypair } from '@solana/web3.js';
-import type { ReadonlyUint8Array } from '@wallet-standard/core';
+import type { ReadonlyUint8Array } from '@tuna-wallet-standard/core';
 import * as bip39 from 'bip39';
 import { derivePath } from 'ed25519-hd-key';
 import { utils as ethUtils, Wallet as EthWallet } from 'ethers';

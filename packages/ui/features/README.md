@@ -1,4 +1,4 @@
-# `@wallet-standard/ui-features`
+# `@tuna-wallet-standard/ui-features`
 
 This package includes functions useful for getting wallet and wallet accounts features.
 

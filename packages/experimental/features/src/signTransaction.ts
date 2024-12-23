@@ -1,10 +1,10 @@
-import type { IdentifierString, ReadonlyUint8Array, WalletAccount } from '@wallet-standard/base';
+import type { IdentifierString, ReadonlyUint8Array, WalletAccount } from '@tuna-wallet-standard/base';
 
 /** TODO: docs */
 export type SignTransactionFeature = {
     /** Name of the feature. */
     'experimental:signTransaction': {
-        /** Version of the feature implemented by the {@link "@wallet-standard/base".Wallet}. */
+        /** Version of the feature implemented by the {@link "@tuna-wallet-standard/base".Wallet}. */
         version: SignTransactionVersion;
 
         /** Sign transactions using the account's secret key. */

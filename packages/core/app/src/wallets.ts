@@ -5,7 +5,7 @@ import type {
     WalletEventsWindow,
     WindowAppReadyEvent,
     WindowAppReadyEventAPI,
-} from '@wallet-standard/base';
+} from '@tuna-wallet-standard/base';
 
 let wallets: Wallets | undefined = undefined;
 const registeredWalletsSet = new Set<Wallet>();
@@ -21,14 +21,14 @@ const listeners: { [E in WalletsEventNames]?: WalletsEventsListeners[E][] } = {}
 
 /**
  * Get an API for {@link Wallets.get | getting}, {@link Wallets.on | listening for}, and
- * {@link Wallets.register | registering} {@link "@wallet-standard/base".Wallet | Wallets}.
+ * {@link Wallets.register | registering} {@link "@tuna-wallet-standard/base".Wallet | Wallets}.
  *
  * When called for the first time --
  *
- * This dispatches a {@link "@wallet-standard/base".WindowAppReadyEvent} to notify each Wallet that the app is ready
+ * This dispatches a {@link "@tuna-wallet-standard/base".WindowAppReadyEvent} to notify each Wallet that the app is ready
  * to register it.
  *
- * This also adds a listener for {@link "@wallet-standard/base".WindowRegisterWalletEvent} to listen for a notification
+ * This also adds a listener for {@link "@tuna-wallet-standard/base".WindowRegisterWalletEvent} to listen for a notification
  * from each Wallet that the Wallet is ready to be registered by the app.
  *
  * This combination of event dispatch and listener guarantees that each Wallet will be registered synchronously as soon
@@ -62,7 +62,7 @@ export function getWallets(): Wallets {
 
 /**
  * API for {@link Wallets.get | getting}, {@link Wallets.on | listening for}, and
- * {@link Wallets.register | registering} {@link "@wallet-standard/base".Wallet | Wallets}.
+ * {@link Wallets.register | registering} {@link "@tuna-wallet-standard/base".Wallet | Wallets}.
  *
  * @group App
  */

@@ -1,1 +1,1 @@
-export * from '@wallet-standard/react-core';
+export * from '@tuna-wallet-standard/react-core';

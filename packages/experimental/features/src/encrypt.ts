@@ -1,10 +1,10 @@
-import type { ReadonlyUint8Array, WalletAccount } from '@wallet-standard/base';
+import type { ReadonlyUint8Array, WalletAccount } from '@tuna-wallet-standard/base';
 
 /** TODO: docs */
 export type EncryptFeature = {
     /** Name of the feature. */
     'experimental:encrypt': {
-        /** Version of the feature implemented by the {@link "@wallet-standard/base".Wallet}. */
+        /** Version of the feature implemented by the {@link "@tuna-wallet-standard/base".Wallet}. */
         version: EncryptVersion;
 
         // TODO: consider declaring cipher string types

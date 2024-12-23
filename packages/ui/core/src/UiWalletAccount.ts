@@ -1,4 +1,4 @@
-import type { ReadonlyUint8Array, WalletAccount } from '@wallet-standard/base';
+import type { ReadonlyUint8Array, WalletAccount } from '@tuna-wallet-standard/base';
 
 import type { UiWalletHandle } from './UiWalletHandle.js';
 

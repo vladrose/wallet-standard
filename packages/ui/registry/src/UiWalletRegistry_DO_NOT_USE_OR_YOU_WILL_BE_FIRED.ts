@@ -1,5 +1,5 @@
-import type { IdentifierArray, Wallet } from '@wallet-standard/base';
-import type { UiWalletAccount, UiWallet } from '@wallet-standard/ui-core';
+import type { IdentifierArray, Wallet } from '@tuna-wallet-standard/base';
+import type { UiWalletAccount, UiWallet } from '@tuna-wallet-standard/ui-core';
 
 import { getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from './UiWalletAccountRegistry_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.js';
 import { registerWalletHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from './UiWalletHandleRegistry_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.js';

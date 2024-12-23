@@ -1,4 +1,4 @@
-import type { IdentifierArray } from '@wallet-standard/base';
+import type { IdentifierArray } from '@tuna-wallet-standard/base';
 
 export function identifierArraysAreDifferent(a: IdentifierArray, b: IdentifierArray): boolean {
     // NOTE: Do not optimize this with an `a.length !== b.length` check. A length check does not

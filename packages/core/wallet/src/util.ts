@@ -1,8 +1,8 @@
-import type { ReadonlyUint8Array, WalletAccount } from '@wallet-standard/base';
+import type { ReadonlyUint8Array, WalletAccount } from '@tuna-wallet-standard/base';
 
 /**
- * Base implementation of a {@link "@wallet-standard/base".WalletAccount} to be used or extended by a
- * {@link "@wallet-standard/base".Wallet}.
+ * Base implementation of a {@link "@tuna-wallet-standard/base".WalletAccount} to be used or extended by a
+ * {@link "@tuna-wallet-standard/base".Wallet}.
  *
  * `WalletAccount` properties must be read-only. This class enforces this by making all properties
  * [truly private](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) and
@@ -20,32 +20,32 @@ export class ReadonlyWalletAccount implements WalletAccount {
     readonly #label: WalletAccount['label'];
     readonly #icon: WalletAccount['icon'];
 
-    /** Implementation of {@link "@wallet-standard/base".WalletAccount.address | WalletAccount::address} */
+    /** Implementation of {@link "@tuna-wallet-standard/base".WalletAccount.address | WalletAccount::address} */
     get address() {
         return this.#address;
     }
 
-    /** Implementation of {@link "@wallet-standard/base".WalletAccount.publicKey | WalletAccount::publicKey} */
+    /** Implementation of {@link "@tuna-wallet-standard/base".WalletAccount.publicKey | WalletAccount::publicKey} */
     get publicKey() {
         return this.#publicKey.slice();
     }
 
-    /** Implementation of {@link "@wallet-standard/base".WalletAccount.chains | WalletAccount::chains} */
+    /** Implementation of {@link "@tuna-wallet-standard/base".WalletAccount.chains | WalletAccount::chains} */
     get chains() {
         return this.#chains.slice();
     }
 
-    /** Implementation of {@link "@wallet-standard/base".WalletAccount.features | WalletAccount::features} */
+    /** Implementation of {@link "@tuna-wallet-standard/base".WalletAccount.features | WalletAccount::features} */
     get features() {
         return this.#features.slice();
     }
 
-    /** Implementation of {@link "@wallet-standard/base".WalletAccount.label | WalletAccount::label} */
+    /** Implementation of {@link "@tuna-wallet-standard/base".WalletAccount.label | WalletAccount::label} */
     get label() {
         return this.#label;
     }
 
-    /** Implementation of {@link "@wallet-standard/base".WalletAccount.icon | WalletAccount::icon} */
+    /** Implementation of {@link "@tuna-wallet-standard/base".WalletAccount.icon | WalletAccount::icon} */
     get icon() {
         return this.#icon;
     }

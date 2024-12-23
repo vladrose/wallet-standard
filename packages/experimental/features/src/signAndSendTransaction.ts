@@ -1,11 +1,11 @@
-import type { IdentifierString } from '@wallet-standard/base';
+import type { IdentifierString } from '@tuna-wallet-standard/base';
 import type { SignTransactionInput } from './signTransaction.js';
 
 /** TODO: docs */
 export type SignAndSendTransactionFeature = {
     /** Name of the feature. */
     'experimental:signAndSendTransaction': {
-        /** Version of the feature implemented by the {@link "@wallet-standard/base".Wallet}. */
+        /** Version of the feature implemented by the {@link "@tuna-wallet-standard/base".Wallet}. */
         version: SignAndSendTransactionVersion;
 
         /**

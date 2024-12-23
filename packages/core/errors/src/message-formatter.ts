@@ -87,7 +87,7 @@ export function getErrorMessage<TErrorCode extends WalletStandardErrorCode>(
     if (process.env.NODE_ENV !== 'production') {
         return getHumanReadableErrorMessage(code, context);
     } else {
-        let decodingAdviceMessage = `Wallet Standard error #${code}; Decode this error by running \`npx @wallet-standard/errors decode -- ${code}`;
+        let decodingAdviceMessage = `Wallet Standard error #${code}; Decode this error by running \`npx @tuna-wallet-standard/errors decode -- ${code}`;
         if (Object.keys(context).length) {
             /**
              * DANGER: Be sure that the shell command is escaped in such a way that makes it

@@ -12,7 +12,7 @@ import type {
 } from '@solana/wallet-standard';
 import { getEndpointForChain, SOLANA_CHAINS } from '@solana/wallet-standard';
 import { Keypair, PublicKey, Transaction } from '@solana/web3.js';
-import type { ConnectFeature, ConnectMethod, EventsFeature, ReadonlyUint8Array, Wallet } from '@wallet-standard/core';
+import type { ConnectFeature, ConnectMethod, EventsFeature, ReadonlyUint8Array, Wallet } from '@tuna-wallet-standard/core';
 import type {
     DecryptFeature,
     DecryptMethod,
@@ -20,8 +20,8 @@ import type {
     EncryptFeature,
     EncryptMethod,
     EncryptOutput,
-} from '@wallet-standard/experimental';
-import { CIPHER_x25519_xsalsa20_poly1305 } from '@wallet-standard/experimental';
+} from '@tuna-wallet-standard/experimental';
+import { CIPHER_x25519_xsalsa20_poly1305 } from '@tuna-wallet-standard/experimental';
 import bs58 from 'bs58';
 import { box, randomBytes, sign } from 'tweetnacl';
 import {

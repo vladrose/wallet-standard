@@ -1,4 +1,4 @@
-# `@wallet-standard/react-core`
+# `@tuna-wallet-standard/react-core`
 
 This package provides React hooks for using Wallet Standard wallets, accounts, and features.
 

@@ -1,3 +1,3 @@
-export * from '@wallet-standard/ui-compare';
-export * from '@wallet-standard/ui-core';
-export * from '@wallet-standard/ui-features';
+export * from '@tuna-wallet-standard/ui-compare';
+export * from '@tuna-wallet-standard/ui-core';
+export * from '@tuna-wallet-standard/ui-features';

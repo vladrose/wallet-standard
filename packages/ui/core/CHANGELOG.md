@@ -1,4 +1,4 @@
-# @wallet-standard/ui-core
+# @tuna-wallet-standard/ui-core
 
 ## 1.0.0
 
@@ -12,4 +12,4 @@
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
 -   Updated dependencies [96e237c]
-    -   @wallet-standard/base@1.1.0
+    -   @tuna-wallet-standard/base@1.1.0

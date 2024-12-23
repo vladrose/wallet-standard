@@ -1,4 +1,4 @@
-import type { ReadonlyUint8Array } from '@wallet-standard/core';
+import type { ReadonlyUint8Array } from '@tuna-wallet-standard/core';
 
 function serializeMessage(message: ReadonlyUint8Array): string {
     return Buffer.from(message).toString('base64');

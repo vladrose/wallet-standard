@@ -1,4 +1,4 @@
-import type { WalletWithFeatures } from '@wallet-standard/base';
+import type { WalletWithFeatures } from '@tuna-wallet-standard/base';
 import type { DecryptFeature } from './decrypt.js';
 import type { EncryptFeature } from './encrypt.js';
 import type { SignAndSendTransactionFeature } from './signAndSendTransaction.js';

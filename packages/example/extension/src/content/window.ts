@@ -1,4 +1,4 @@
-import { registerWallet } from '@wallet-standard/core';
+import { registerWallet } from '@tuna-wallet-standard/core';
 import { createRPC, createWindowTransport } from '../messages/index';
 import { MultiChainWallet } from './multiChainWallet';
 

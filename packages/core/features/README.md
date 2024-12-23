@@ -1,4 +1,4 @@
-# `@wallet-standard/features`
+# `@tuna-wallet-standard/features`
 
 This package defines TypeScript types for **Standard Features** -- canonical, chain-agnostic features using the
 `standard` namespace of the Wallet Standard.

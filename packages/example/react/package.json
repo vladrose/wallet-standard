@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@wallet-standard/example-react",
+    "name": "@tuna-wallet-standard/example-react",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/wallet-standard/wallet-standard",
     "license": "Apache-2.0",
@@ -15,7 +15,7 @@
         "@solana/wallet-adapter-phantom": "^0.9.22",
         "@solana/wallet-standard": "^1.0.2",
         "@solana/web3.js": "^1.66.2",
-        "@wallet-standard/core": "workspace:^",
+        "@tuna-wallet-standard/core": "workspace:^",
         "@tuna-wallet-standard/react": "workspace:^",
         "bs58": "^4.0.1",
         "react": "^18.3",

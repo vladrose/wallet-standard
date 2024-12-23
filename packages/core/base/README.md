@@ -1,4 +1,4 @@
-# `@wallet-standard/base`
+# `@tuna-wallet-standard/base`
 
 This package defines the foundational TypeScript types of the Wallet Standard, and so provides a practical specification
 of the Wallet Standard until a formal specification may be completed.

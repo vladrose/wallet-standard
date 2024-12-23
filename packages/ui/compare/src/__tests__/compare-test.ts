@@ -1,5 +1,5 @@
-import type { Wallet, WalletAccount, WalletVersion } from '@wallet-standard/base';
-import type { UiWalletAccount, UiWallet } from '@wallet-standard/ui-core';
+import type { Wallet, WalletAccount, WalletVersion } from '@tuna-wallet-standard/base';
+import type { UiWalletAccount, UiWallet } from '@tuna-wallet-standard/ui-core';
 import {
     getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
     getOrCreateUiWalletForStandardWallet_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,

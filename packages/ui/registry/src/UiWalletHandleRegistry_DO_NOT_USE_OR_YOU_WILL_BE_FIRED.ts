@@ -1,11 +1,11 @@
-import type { Wallet, WalletAccount } from '@wallet-standard/base';
+import type { Wallet, WalletAccount } from '@tuna-wallet-standard/base';
 import {
     WALLET_STANDARD_ERROR__REGISTRY__WALLET_ACCOUNT_NOT_FOUND,
     WALLET_STANDARD_ERROR__REGISTRY__WALLET_NOT_FOUND,
     WalletStandardError,
     safeCaptureStackTrace,
-} from '@wallet-standard/errors';
-import type { UiWalletAccount, UiWalletHandle } from '@wallet-standard/ui-core';
+} from '@tuna-wallet-standard/errors';
+import type { UiWalletAccount, UiWalletHandle } from '@tuna-wallet-standard/ui-core';
 
 const uiWalletHandlesToWallets = new WeakMap<UiWalletHandle, Wallet>();
 

@@ -1,1 +1,1 @@
-# `@wallet-standard/ui-registry`
+# `@tuna-wallet-standard/ui-registry`

@@ -28,15 +28,15 @@
     "scripts": {
         "clean": "shx mkdir -p lib && shx rm -rf lib",
         "package": "shx mkdir -p lib/cjs && shx echo '{ \"type\": \"commonjs\" }' > lib/cjs/package.json",
-        "test": "jest -c ../../../node_modules/@wallet-standard/test-config/jest.config.ts --rootDir ."
+        "test": "jest -c ../../../node_modules/@tuna-wallet-standard/test-config/jest.config.ts --rootDir ."
     },
     "dependencies": {
-        "@wallet-standard/base": "workspace:*",
-        "@wallet-standard/errors": "workspace:*",
-        "@wallet-standard/ui-core": "workspace:*"
+        "@tuna-wallet-standard/base": "workspace:*",
+        "@tuna-wallet-standard/errors": "workspace:*",
+        "@tuna-wallet-standard/ui-core": "workspace:*"
     },
     "devDependencies": {
-        "@wallet-standard/test-matchers": "workspace:^",
+        "@tuna-wallet-standard/test-matchers": "workspace:^",
         "shx": "^0.3.4"
     }
 }

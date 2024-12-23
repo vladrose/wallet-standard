@@ -4,7 +4,7 @@ import type { Wallet } from './wallet.js';
  * Global `window` type for dispatching and listening for {@link WindowAppReadyEvent} and {@link WindowRegisterWalletEvent}.
  *
  * ```ts
- * import { WalletEventsWindow } from '@wallet-standard/base';
+ * import { WalletEventsWindow } from '@tuna-wallet-standard/base';
  *
  * declare const window: WalletEventsWindow;
  * // OR

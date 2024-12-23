@@ -1,11 +1,11 @@
-// This is copied from @wallet-standard/wallet
+// This is copied from @tuna-wallet-standard/wallet
 
 import type {
     Wallet,
     WalletEventsWindow,
     WindowRegisterWalletEvent,
     WindowRegisterWalletEventCallback,
-} from '@wallet-standard/base';
+} from '@tuna-wallet-standard/base';
 
 export function registerWallet(wallet: Wallet): void {
     const callback: WindowRegisterWalletEventCallback = ({ register }) => register(wallet);
