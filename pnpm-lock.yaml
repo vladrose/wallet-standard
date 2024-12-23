@@ -317,12 +317,12 @@ importers:
       '@solana/web3.js':
         specifier: ^1.66.2
         version: 1.98.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
+      '@tuna-wallet-standard/react':
+        specifier: workspace:^
+        version: link:../../react/_
       '@wallet-standard/core':
         specifier: workspace:^
         version: link:../../core/_
-      '@wallet-standard/react':
-        specifier: workspace:^
-        version: link:../../react/_
       bs58:
         specifier: ^4.0.1
         version: 4.0.1
@@ -418,6 +418,9 @@ importers:
 
   packages/react/core:
     dependencies:
+      '@tuna-wallet-standard/ui-registry':
+        specifier: workspace:^
+        version: link:../../ui/registry
       '@wallet-standard/app':
         specifier: workspace:^
         version: link:../../core/app
@@ -436,9 +439,6 @@ importers:
       '@wallet-standard/ui':
         specifier: workspace:^
         version: link:../../ui/_
-      '@wallet-standard/ui-registry':
-        specifier: workspace:^
-        version: link:../../ui/registry
     devDependencies:
       '@types/react':
         specifier: ^18.3
@@ -510,15 +510,15 @@ importers:
 
   packages/ui/compare:
     dependencies:
+      '@tuna-wallet-standard/ui-registry':
+        specifier: workspace:*
+        version: link:../registry
       '@wallet-standard/base':
         specifier: workspace:*
         version: link:../../core/base
       '@wallet-standard/ui-core':
         specifier: workspace:*
         version: link:../core
-      '@wallet-standard/ui-registry':
-        specifier: workspace:*
-        version: link:../registry
     devDependencies:
       shx:
         specifier: ^0.3.4
@@ -536,6 +536,9 @@ importers:
 
   packages/ui/features:
     dependencies:
+      '@tuna-wallet-standard/ui-registry':
+        specifier: workspace:*
+        version: link:../registry
       '@wallet-standard/base':
         specifier: workspace:*
         version: link:../../core/base
@@ -545,9 +548,6 @@ importers:
       '@wallet-standard/ui-core':
         specifier: workspace:*
         version: link:../core
-      '@wallet-standard/ui-registry':
-        specifier: workspace:*
-        version: link:../registry
     devDependencies:
       shx:
         specifier: ^0.3.4

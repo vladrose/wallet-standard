@@ -1,5 +1,5 @@
 import type { UiWalletAccount } from '@wallet-standard/ui-core';
-import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@wallet-standard/ui-registry';
+import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@tuna-wallet-standard/ui-registry';
 
 /**
  * Produces a stable string that can be used to uniquely identify a `UiWalletAccount`.

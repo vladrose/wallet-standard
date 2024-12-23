@@ -3,7 +3,7 @@ import type { UiWalletAccount, UiWallet } from '@wallet-standard/ui-core';
 import {
     getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
     getOrCreateUiWalletForStandardWallet_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
-} from '@wallet-standard/ui-registry';
+} from '@tuna-wallet-standard/ui-registry';
 
 import { uiWalletAccountBelongsToUiWallet, uiWalletAccountsAreSame } from '../compare.js';
 

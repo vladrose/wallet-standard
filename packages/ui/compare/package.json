@@ -33,7 +33,7 @@
     "dependencies": {
         "@wallet-standard/base": "workspace:*",
         "@wallet-standard/ui-core": "workspace:*",
-        "@wallet-standard/ui-registry": "workspace:*"
+        "@tuna-wallet-standard/ui-registry": "workspace:*"
     },
     "devDependencies": {
         "shx": "^0.3.4"

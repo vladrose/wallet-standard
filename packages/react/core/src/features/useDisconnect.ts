@@ -2,7 +2,7 @@ import type { StandardDisconnectFeature, StandardDisconnectMethod } from '@walle
 import { StandardDisconnect } from '@wallet-standard/features';
 import type { UiWallet } from '@wallet-standard/ui';
 import { getWalletFeature } from '@wallet-standard/ui';
-import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@wallet-standard/ui-registry';
+import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@tuna-wallet-standard/ui-registry';
 import { useCallback } from 'react';
 
 import { useWeakRef } from '../useWeakRef.js';

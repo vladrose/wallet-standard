@@ -1,12 +1,12 @@
 import type { Wallet, WalletVersion } from '@wallet-standard/base';
 import { StandardConnect } from '@wallet-standard/features';
 import type { UiWallet } from '@wallet-standard/ui';
-import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@wallet-standard/ui-registry';
+import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@tuna-wallet-standard/ui-registry';
 
 import { useConnect } from '../features/useConnect.js';
 import { renderHook } from '../test-renderer.js';
 
-jest.mock('@wallet-standard/ui-registry');
+jest.mock('@tuna-wallet-standard/ui-registry');
 
 describe('useConnect', () => {
     let mockConnect: jest.Mock;

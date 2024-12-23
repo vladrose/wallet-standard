@@ -16,7 +16,7 @@
         "@solana/wallet-standard": "^1.0.2",
         "@solana/web3.js": "^1.66.2",
         "@wallet-standard/core": "workspace:^",
-        "@wallet-standard/react": "workspace:^",
+        "@tuna-wallet-standard/react": "workspace:^",
         "bs58": "^4.0.1",
         "react": "^18.3",
         "react-dom": "^18.3"

@@ -4,11 +4,11 @@ import {
     WalletStandardError,
 } from '@wallet-standard/errors';
 import type { UiWalletHandle } from '@wallet-standard/ui-core';
-import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@wallet-standard/ui-registry';
+import { getWalletForHandle_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@tuna-wallet-standard/ui-registry';
 
 import { getWalletFeature } from '../getWalletFeature.js';
 
-jest.mock('@wallet-standard/ui-registry');
+jest.mock('@tuna-wallet-standard/ui-registry');
 
 describe('getWalletFeature', () => {
     let mockFeatureA: object;
