@@ -30,12 +30,14 @@ export function getOrCreateUiWalletForStandardWallet_DO_NOT_USE_OR_YOU_WILL_BE_F
             isDirty = true;
         }
     }
+    const walletAccountsLength = wallet.accounts ? wallet.accounts.length : 0;
     const nextUiWalletAccounts = {
         _cache: [] as UiWalletAccount[],
         *[Symbol.iterator]() {
             if (this._cache.length) {
                 yield* this._cache;
             }
+            if (!wallet.accounts) return false;
             for (const walletAccount of wallet.accounts.slice(this._cache.length)) {
                 const uiWalletAccount =
                     getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED(
@@ -50,6 +52,7 @@ export function getOrCreateUiWalletForStandardWallet_DO_NOT_USE_OR_YOU_WILL_BE_F
             if (this._cache.some(predicateFn)) {
                 return true;
             }
+            if (!wallet.accounts) return false;
             for (const walletAccount of wallet.accounts.slice(this._cache.length)) {
                 const uiWalletAccount =
                     getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED(
@@ -64,12 +67,12 @@ export function getOrCreateUiWalletForStandardWallet_DO_NOT_USE_OR_YOU_WILL_BE_F
             return false;
         },
         get length() {
-            return wallet.accounts.length;
+            return walletAccountsLength;
         },
     };
     if (
         mustInitialize ||
-        uiWallet.accounts.length !== wallet.accounts.length ||
+        uiWallet.accounts.length !== walletAccountsLength ||
         nextUiWalletAccounts.some((account) => !uiWallet.accounts.includes(account))
     ) {
         dirtyUiWallet();
