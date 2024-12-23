@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "Wallet Standard by vladrose",
+    "name": "Wallet Standard",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/wallet-standard/wallet-standard",
     "license": "Apache-2.0",
@@ -39,6 +39,7 @@
         "@typescript-eslint/eslint-plugin": "^7.10.0",
         "@typescript-eslint/parser": "^7.10.0",
         "@wallet-standard/test-config": "workspace:*",
+        "buffer": "^5.5.0||^6.0.0",
         "eslint": "^8.56.0",
         "eslint-config-prettier": "^8.10.0",
         "eslint-plugin-prettier": "^5.1.3",

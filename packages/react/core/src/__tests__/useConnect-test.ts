@@ -33,6 +33,7 @@ describe('useConnect', () => {
     });
     describe('the `isConnecting` property', () => {
         it('is `false` before calling `connect()`', () => {
+            // @ts-ignore
             const { result } = renderHook(() => useConnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -42,6 +43,7 @@ describe('useConnect', () => {
         });
         it('is `false` after the connection resolves', async () => {
             expect.assertions(1);
+            // @ts-ignore
             const { result } = renderHook(() => useConnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -52,6 +54,7 @@ describe('useConnect', () => {
             expect(isConnecting).toBe(false);
         });
         it('is `true` after calling `connect()`', () => {
+            // @ts-ignore
             const { result } = renderHook(() => useConnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -62,7 +65,9 @@ describe('useConnect', () => {
             expect(isConnecting).toBe(true);
         });
         it('is `true` on hooks that did not trigger the connect', () => {
+            // @ts-ignore
             const { result: resultA } = renderHook(() => useConnect(mockUiWallet));
+            // @ts-ignore
             const { result: resultB } = renderHook(() => useConnect(mockUiWallet));
             if (resultA.__type === 'error' || !resultA.current) {
                 throw resultA.current;
@@ -78,6 +83,7 @@ describe('useConnect', () => {
     });
     describe('the `connect` property', () => {
         it("calls the wallet's connect implementation when called ", () => {
+            // @ts-ignore
             const { result } = renderHook(() => useConnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -88,6 +94,7 @@ describe('useConnect', () => {
             }
         });
         it("calls the wallet's connect implementation once despite multiple calls", () => {
+            // @ts-ignore
             const { result } = renderHook(() => useConnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -99,7 +106,9 @@ describe('useConnect', () => {
             }
         });
         it("calls the wallet's connect implementation once despite calls from different hooks", () => {
+            // @ts-ignore
             const { result: resultA } = renderHook(() => useConnect(mockUiWallet));
+            // @ts-ignore
             const { result: resultB } = renderHook(() => useConnect(mockUiWallet));
             if (resultA.__type === 'error' || !resultA.current) {
                 throw resultA.current;
@@ -115,6 +124,7 @@ describe('useConnect', () => {
         });
         it("calls the wallet's connect implementation anew after the first connection resolves", async () => {
             expect.assertions(1);
+            // @ts-ignore
             const { result } = renderHook(() => useConnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;

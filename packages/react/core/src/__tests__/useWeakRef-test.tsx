@@ -15,7 +15,7 @@ function TestComponent({
     if (thiefRef) {
         thiefRef.current = weakRef;
     }
-    return <>{weakRef.current}</>;
+    return <React.Fragment>{weakRef.current as string}</React.Fragment>;
 }
 
 describe('useWeakRef', () => {

@@ -33,6 +33,7 @@ describe('useDisconnect', () => {
     });
     describe('the `isDisconnecting` property', () => {
         it('is `false` before calling `disconnect()`', () => {
+            // @ts-ignore
             const { result } = renderHook(() => useDisconnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -42,6 +43,7 @@ describe('useDisconnect', () => {
         });
         it('is `false` after the disconnection resolves', async () => {
             expect.assertions(1);
+            // @ts-ignore
             const { result } = renderHook(() => useDisconnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -52,6 +54,7 @@ describe('useDisconnect', () => {
             expect(isDisconnecting).toBe(false);
         });
         it('is `true` after calling `disconnect()`', () => {
+            // @ts-ignore
             const { result } = renderHook(() => useDisconnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -62,7 +65,9 @@ describe('useDisconnect', () => {
             expect(isDisconnecting).toBe(true);
         });
         it('is `true` on hooks that did not trigger the disconnect', () => {
+            // @ts-ignore
             const { result: resultA } = renderHook(() => useDisconnect(mockUiWallet));
+            // @ts-ignore
             const { result: resultB } = renderHook(() => useDisconnect(mockUiWallet));
             if (resultA.__type === 'error' || !resultA.current) {
                 throw resultA.current;
@@ -78,6 +83,7 @@ describe('useDisconnect', () => {
     });
     describe('the `disconnect` property', () => {
         it("calls the wallet's disconnect implementation when called ", () => {
+            // @ts-ignore
             const { result } = renderHook(() => useDisconnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -88,6 +94,7 @@ describe('useDisconnect', () => {
             }
         });
         it("calls the wallet's disconnect implementation once despite multiple calls", () => {
+            // @ts-ignore
             const { result } = renderHook(() => useDisconnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
@@ -99,7 +106,9 @@ describe('useDisconnect', () => {
             }
         });
         it("calls the wallet's disconnect implementation once despite calls from different hooks", () => {
+            // @ts-ignore
             const { result: resultA } = renderHook(() => useDisconnect(mockUiWallet));
+            // @ts-ignore
             const { result: resultB } = renderHook(() => useDisconnect(mockUiWallet));
             if (resultA.__type === 'error' || !resultA.current) {
                 throw resultA.current;
@@ -115,6 +124,7 @@ describe('useDisconnect', () => {
         });
         it("calls the wallet's disconnect implementation anew after the first disconnection resolves", async () => {
             expect.assertions(1);
+            // @ts-ignore
             const { result } = renderHook(() => useDisconnect(mockUiWallet));
             if (result.__type === 'error' || !result.current) {
                 throw result.current;
