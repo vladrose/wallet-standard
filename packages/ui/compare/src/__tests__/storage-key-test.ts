@@ -1,6 +1,6 @@
 import type { Wallet, WalletVersion } from '@wallet-standard/base';
 import type { UiWalletAccount } from '@wallet-standard/ui-core';
-import { getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@wallet-standard/ui-registry';
+import { getOrCreateUiWalletAccountForStandardWalletAccount_DO_NOT_USE_OR_YOU_WILL_BE_FIRED } from '@tuna-wallet-standard/ui-registry';
 
 import { getUiWalletAccountStorageKey } from '../storage-key.js';
 
